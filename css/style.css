@@ -84,3 +84,11 @@ a:active {
   background-color: E2D0FF;
   color: purple;
 }
+#hero {
+  text-align: center;
+}
+
+#hero h2 {
+  text-align: center;
+  font-weight: 300;
+}
