@@ -73,8 +73,8 @@ a:active {
   text-decoration: none;
 }
 .button.contact {
-  background-color: transparent;
-  color: #e2d0ff;
+  background-color: #e2d0ff;
+  color: #000000;
   text-transform: lowercase;
   border-radius: 0px;
   padding: 12px;
@@ -87,5 +87,12 @@ a:active {
 #hero {
   text-align: center;
   background-color: #e2d0ff;
+  height: fit-content;
+}
+#header {
+  background-color: #e2d0ff;
   height: auto;
+}
+#contact {
+  background-color: #e2d0ff;
 }
