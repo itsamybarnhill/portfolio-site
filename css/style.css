@@ -84,11 +84,3 @@ a:active {
   background-color: E2D0FF;
   color: purple;
 }
-#hero {
-  text-align: center;
-  background-image: linear linear-gradient(to bottom, 180deg, #5f18d3);
-}
-#hero h2 {
-  text-align: center;
-  font-weight: 300;
-}
