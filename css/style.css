@@ -86,9 +86,13 @@ a:active {
 }
 #hero {
   text-align: center;
+  background-image: linear linear-gradient(to bottom, 180deg, #e2d0ff);
 }
 
 #hero h2 {
   text-align: center;
   font-weight: 300;
+}
+#hero {
+  background-image: linear linear-gradient(to bottom, 180deg, #5f18d3);
 }
