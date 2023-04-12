@@ -90,9 +90,11 @@ a:active {
   height: max-content;
 }
 #header {
+  text-align: left;
   height: auto;
   background-image: linear-gradient(180deg, rgb(226, 208, 255), #ffffff);
 }
+
 #contact {
   background-image: linear-gradient(0deg, rgb(226, 208, 255), #ffffff);
 }
