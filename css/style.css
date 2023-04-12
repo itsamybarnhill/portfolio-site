@@ -1,0 +1,74 @@
+/*
+Colors used:
+Purple: #E2D0FF
+*/
+body {
+  background-color: #ffffff;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 3.062em;
+  font-weight: 200;
+}
+h2 {
+  font-size: 2.438em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.938em;
+  font-weight: 200;
+}
+h4 {
+  font-size: 1.562em;
+  font-weight: 200;
+}
+img {
+  width: 100%;
+}
+a {
+  color: black;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.button {
+  display: inline-block;
+  background-color: #e2d0ff;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 16px;
+  border-radius: 100px;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
