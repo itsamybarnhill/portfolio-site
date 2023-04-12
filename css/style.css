@@ -72,3 +72,15 @@ a:active {
   opacity: 0.8;
   text-decoration: none;
 }
+.button.contact {
+  background-color: transparent;
+  color: #e2d0ff;
+  text-transform: lowercase;
+  border-radius: 0px;
+  padding: 12px;
+  border: 2px solid #e2d0ff;
+}
+.button.contact:hover {
+  background-color: E2D0FF;
+  color: purple;
+}
