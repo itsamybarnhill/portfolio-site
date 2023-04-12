@@ -86,13 +86,13 @@ a:active {
 }
 #hero {
   text-align: center;
-  background-color: #e2d0ff;
-  height: fit-content;
+  background-image: linear-gradient(180deg, rgb(226, 208, 255), #ffffff);
+  height: max-content;
 }
 #header {
-  background-color: #e2d0ff;
   height: auto;
+  background-image: linear-gradient(180deg, rgb(226, 208, 255), #ffffff);
 }
 #contact {
-  background-color: #e2d0ff;
+  background-image: linear-gradient(0deg, rgb(226, 208, 255), #ffffff);
 }
