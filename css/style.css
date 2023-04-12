@@ -85,5 +85,5 @@ a:active {
   color: purple;
 }
 #hero {
-  background-image: linear-gradient(top to bottom, 180deg, #e2d0ff);
+  text-align: center;
 }
