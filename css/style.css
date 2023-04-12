@@ -86,4 +86,6 @@ a:active {
 }
 #hero {
   text-align: center;
+  background-color: #e2d0ff;
+  height: auto;
 }
