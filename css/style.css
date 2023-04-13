@@ -84,3 +84,6 @@ a:active {
   background-color: E2D0FF;
   color: purple;
 }
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
