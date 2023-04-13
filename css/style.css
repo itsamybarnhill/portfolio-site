@@ -84,18 +84,3 @@ a:active {
   background-color: E2D0FF;
   color: purple;
 }
-#hero {
-  text-align: center;
-  background-image: linear-gradient(180deg, rgb(226, 208, 255), #ffffff);
-  height: max-content;
-}
-#header {
-  text-align: right;
-  height: auto;
-  background-image: linear-gradient(180deg, rgb(226, 208, 255));
-}
-
-#contact {
-  background-image: linear-gradient(0deg, rgb(226, 208, 255), #ffffff);
-  text-align: center;
-}
