@@ -27,54 +27,54 @@
     />
   </head>
   <body>
-    <header id="header">
-      <div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+      <a href="index.html"><img class="logo" src="img/logo-small.png" alt="logo"> </a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <div><h1>Vela</h1></div>
-      <div>
-        <h2>A mobile weather application built for watersport enthusiasts</h2>
-      </div>
-      <div class="row">
-        <div class="column">
-          <ul>
+      <div class="flex-container">
+
+        <div class="flex-child">
+          <div id="project-description"><h3>A mobile weather application built for watersport enthusiasts</h3></div>
+            <ul>
             <li>Date</li>
             <li>Role</li>
             <li>Tools</li>
             <li>Skills</li>
-            <li>Platform</li>
-          </ul>
+            <li>Platforms</li>
+        </ul>
+        
+        <ul>
+           <li>February 2022 - February 2023</li>
+           <li>UX/UI Designer</li>
+           <li>Figma</li>
+           <li>UI/UX</li>
+           <li>Android</li>
+        </ul>
         </div>
-        <div class="column">
-          <ul>
-            <li>February 2022 - February 2023</li>
-            <li>UX/UI Designer</li>
-            <li>Figma, Usability Hub, Google Docs</li>
-            <li>UI/UX Design, User Research</li>
-            <li>Android</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <picture
+        
+        <div class="flex-second_child">
+          <picture
           ><source
-            srcset="img/vela/vela1x/mockup-lrg1x.jpg"
+            srcset="img/vela_mockup.png"
             media=" (max-width:767px)"
           />
-          <img src="img/vela/vela1x/mockup-lrg1x.jpg" alt="Vela Mockup" />
+          <img src="img/vela_mockup.png" alt="Vela Mockup" />
         </picture>
+
+        </div>
+        
       </div>
-      <div><h1>Process</h1></div>
-      <ul>
+<div><h1>Process</h1></div>
+      <ul class="new-style"></ul>
         <li><a href="#background">Background</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#analyze">Analyze</a></li>
@@ -85,8 +85,8 @@
       </ul>
 
       <div><h1 id="background">Background</h1></div>
-      <div>
-        <h2>Context</h2>
+      <div class="container">
+        <h3>Context</h3>
         <p>
           Water sport enthusiasts such as surfers, kayakers, and snorkelers want
           their activities on the water to be relaxing and fun, not stressful.
@@ -94,20 +94,20 @@
           weather conditions before heading out. This can help us avoid hazards
           and be fully prepared for a day full of surfing, diving, or sailing.
         </p>
-        <h2>Problem</h2>
+        <h3>Problem</h3>
         <p>
           Weather apps do exist for water sport enthusiasts, however what is
           currently available doesn’t do a great job of displaying complicated
           weather data in an accessible, easy to understand manner.
         </p>
-        <h2>Hypothesis</h2>
+        <h3>Hypothesis</h3>
         <p>
           Watersport enthusiasts such as sailors, surfers, and divers need a way
           to receive accurate weather data presented in an easy to comprehend
           and visually attractive way, so that they can make informed decisions
           about participating in water sports.
         </p>
-        <h2>Goal</h2>
+        <h3>Goal</h3>
         <p>
           Create a product that offers current conditions information, graphs,
           and future forecasts all beautifully displayed and easy to read at a
@@ -116,8 +116,8 @@
       </div>
 
       <div><h1 id="research">Research</h1></div>
-      <div>
-        <h2>Competitive Analysis</h2>
+      <div class="container">
+        <h3>Competitive Analysis</h3>
         <p>
           As part of my research, it was important to understand competitors in
           the same space were doing well, and discover what opportunities might
@@ -127,26 +127,30 @@
           features analysis of each competitor.
         </p>
       </div>
-      <div>
-        <picture
+      <div class="container">
+        <br>
+        <div>
+          <picture
           ><source
             srcset="img/vela/vela1x/comp-analysis1x.jpg"
             media=" (max-width:767px)"
           />
           <img
             src="img/vela/vela1x/comp-analysis1x.jpg"
-            alt="Competitive Analysis"
+            alt="Competitive Analysis" class="center"
           />
         </picture>
       </div>
+      <br>
       <div>
-        <h2>User Interviews</h2>
+        <h3>User Interviews</h3>
         <p>
           I conducted interviews with three individuals sourced from my personal
           network. The interviews were conducted remotely over Zoom.
         </p>
-        <h3>Questions</h3>
-        <ul>
+        <br>
+        <h4>Questions</h4>
+        <ul class="new-style"></ul>
           <li>
             How much time do you normally spend checking a mobile weather app?
           </li>
@@ -162,8 +166,9 @@
             Tell me about a bad experience you had while doing water sports
           </li>
         </ul>
+        <br>
 
-        <h3>Quotes</h3>
+        <h4>Quotes</h4>
         <p>
           “It’s always an awesome feeling when I wake up in the morning, check
           the surf report and see that the conditions are going to be just
@@ -181,9 +186,9 @@
           morning, and throughout the day, to see what’s happening on radar” -
           User Interviewee
         </p>
-
-        <h3>Discoveries</h3>
-        <ul>
+        <br>
+        <h4>Discoveries</h4>
+        <ul class="new-style"></ul>
           <li>
             Users reported they are looking at specific conditions reports the
             most, including wave swell size, tide report, and wind direction.
@@ -222,7 +227,7 @@
 
       <div><h1 id="analyze">Analyze</h1></div>
       <div>
-        <h2>User Personas</h2>
+        <h3>User Personas</h3>
         <p>
           I developed two user personas based on the data I had gathered.
           Raymond, a 28 year old realtor who has been surfing all his life, and
@@ -238,7 +243,7 @@
           />
           <img
             src="img/vela/vela1x/persona-raymond1x.jpg"
-            alt="Raymond User Persona"
+            alt="Raymond User Persona" class="center"
           />
         </picture>
         <picture
@@ -248,12 +253,13 @@
           />
           <img
             src="img/vela/vela1x/persona-shelby1x.jpg"
-            alt="Shelby User Persona"
+            alt="Shelby User Persona" class="center"
           />
         </picture>
       </div>
       <div>
-        <h2>User Journey Maps</h2>
+        <br>
+        <h3>User Journey Maps</h3>
         <p>
           After analyzing, I felt I had gained a deeper understanding of what
           the User Personas needed. Now for the fun to begin! I put on my
@@ -270,7 +276,7 @@
           />
           <img
             src="img/vela/vela1x/raymond-user-journey-lrg.jpg"
-            alt="Raymond User Journey"
+            alt="Raymond User Journey" class="center"
           />
         </picture>
         <picture
@@ -280,14 +286,14 @@
           />
           <img
             src="img/vela/vela1x/shelby-user-journey-lrg.jpg"
-            alt="Shelby User Journey"
+            alt="Shelby User Journey" class="center"
           />
         </picture>
       </div>
 
       <div>
-        <h2>Summarizing Insights</h2>
-        <ul>
+        <h3>Summarizing Insights</h3>
+        <ul class="new-style"></ul>
           <li>
             Water sports contribute to user’s quality of life by providing them
             an outlet for fun and/or stress relief
@@ -308,8 +314,8 @@
           </li>
         </ul>
 
-        <h2>Targeted Feature Ideas</h2>
-        <ul>
+        <h3>Targeted Feature Ideas</h3>
+        <ul class="new-style"></ul>
           <li>
             A feature allowing users to set weather condition parameters and
             receive notifications when those parameters are met.
@@ -328,89 +334,65 @@
 
       <div><h1 id="wireframes">Wireframes</h1></div>
       <div>
-        <h2>Mid Fi Wireframes</h2>
+        <h3>Mid Fi Wireframes</h3>
         <p>
           I developed mid fidelity wireframes for the three major features of
           the mobile app, which are Community, Favorites and Weather Reports.
         </p>
+        <br>
       </div>
       <div>
-        <h3>Mid Fidelity Prototype - Weather Reports</h3>
+        <h4>Mid Fidelity Prototype - Weather Reports</h4>
         <p>
           Data is organized into either the weather, wind, or water category to
           create an experience that is easily digestible.
         </p>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/weather1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img
-            src="img/vela/vela1x/weather1x.jpg"
-            alt="weather report wireframe"
-          />
-        </picture>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/water1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img src="img/vela/vela1x/water1x.jpg" alt="water report wireframe" />
-        </picture>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/wind1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img src="img/vela/vela1x/wind1x.jpg" alt="wind report wireframe" />
-        </picture>
+        <div class="row">
+          <div class="column">
+            <img src="img/vela/vela1x/weather1x.jpg" alt="weather report wireframe" style="width:100%" class="center"> 
+          </div>
+          <div class="column">
+            <img src="img/vela/vela1x/water1x.jpg" alt="water report wireframe" style="width:100%" class="center">
+          </div>
+          <div class="column">
+            <img src="img/vela/vela1x/wind1x.jpg" alt="wind report wireframe" style="width:100%" class="center">
+          </div>
+        </div>
+        <br>
       </div>
+      <br>
       <div>
-        <h3>Mid Fidelity Prototype - Community</h3>
+        <h4>Mid Fidelity Prototype - Community</h4>
         <p>
           A community feature was included to answer the need of the personas
           for personalized recommendations and connection with the watersport
           community.
         </p>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/comm-1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img src="img/vela/vela1x/comm-1x.jpg" alt="community wireframe" />
-        </picture>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/comm1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img
-            src="img/vela/vela1x/comm1x.jpg"
-            alt="community group wireframe"
-          />
-        </picture>
+        <br>
+        <div class="row">
+          <div class="column">
+            <img src="img/vela/vela1x/comm-1x.jpg" alt="Snow" style="width:100%" class="center">
+          </div>
+          <div class="column">
+            <img src="img/vela/vela1x/comm1x.jpg" alt="Forest" style="width:100%" class="center">
+          </div>
       </div>
+      <br>
       <div>
-        <h3>Mid Fidelity Prototype - Favorites</h3>
+        <h4>Mid Fidelity Prototype - Favorites</h4>
         <p>
           A Favorites feature was included to answer the need of the personas to
           save and favorite their previously visited locations or locations that
           interest them.
         </p>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/fave-1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img src="img/vela/vela1x/fave-1x.jpg" alt="favorites wireframe" />
-        </picture>
-        <picture
-          ><source
-            srcset="img/vela/vela1x/fave1x.jpg"
-            media=" (max-width:767px)"
-          />
-          <img src="img/vela/vela1x/fave1x.jpg" alt="favorites wireframe" />
-        </picture>
+        <br>
+        <div class="row">
+          <div class="column">
+            <img src="img/vela/vela1x/fave-1x.jpg" alt="favorites" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/vela/vela1x/fave1x.jpg" alt="favorites" style="width:100%">
+          </div>
       </div>
 
       <div><h1 id="testing">Testing</h1></div>
@@ -429,11 +411,14 @@
           target="_blank"
           >View full test plan and script</a
         >
-        <h2>Test Results</h2>
+        <br>
+        <br>
+        <h3>Test Results</h3>
         <p>
           The top three usability issues that we discovered during testing were:
         </p>
-        <ul>
+        <br>
+        <ul class="new-style"></ul>
           <li>
             Users were confused on where to find the ocean swell forecast. Users
             anticipated that ocean swell would be located under the “water”
@@ -474,7 +459,7 @@
           />
           <img
             src="img/vela/vela1x/style-guide-lrg1x.jpg"
-            alt="style guide color"
+            alt="style guide color" class="center"
           />
         </picture>
         <picture
@@ -484,27 +469,23 @@
           />
           <img
             src="img/vela/vela1x/style-guide-typogrpahy-lrg1x.jpg"
-            alt="style guide typography"
+            alt="style guide typography" class="center"
           />
         </picture>
       </div>
 
       <div><h1 id="solution">Solution</h1></div>
+      <h3>Hi fi Prototype</h3>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOtLGeGZjjZkCjwHMCSZ2LV%2FVela---App-Playground%3Fpage-id%3D0%253A1%26node-id%3D52-5088%26viewport%3D1462%252C1283%252C0.22%26scaling%3Dscale-down%26starting-point-node-id%3D52%253A5088%26show-proto-sidebar%3D1" allowfullscreen></iframe> 
+      <br>
+      <br>
       <div>
-        <h2>Hi fi Prototype</h2>
+        <h3>Challenges and Lessons Learned</h3>
       </div>
-      <iframe
-        style="border: 1px solid rgba(0, 0, 0, 0.1)"
-        width="800"
-        height="450"
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOtLGeGZjjZkCjwHMCSZ2LV%2FVela---App-Playground%3Fpage-id%3D0%253A1%26node-id%3D52-5088%26viewport%3D1236%252C1336%252C0.22%26scaling%3Dscale-down%26starting-point-node-id%3D52%253A5088%26show-proto-sidebar%3D1"
-        allowfullscreen
-      ></iframe>
+      <br>
       <div>
-        <h2>Challenges and Lessons Learned</h2>
-      </div>
-      <div>
-        <h2>Research - Finding the right people to interview</h2>
+        <h4>Research - Finding the right people to interview</h4>
+        <br>
         <p>
           During the research phase of Vela it was challenging it was difficult
           to find individuals in my personal network who had water sports
@@ -519,7 +500,9 @@
           follow up when setting up the interview and carefully explained the
           process to ensure the participant’s comfort.
         </p>
-        <h2>Design - Receiving Feedback</h2>
+        <br>
+        <h4>Design - Receiving Feedback</h4>
+        <br>
         <p>
           While designing the first concept of the design, I received some
           feedback that the navigation I had created may not be the easiest
@@ -531,7 +514,9 @@
           but ultimately functionality is most important and someone has to be
           able to build the design.
         </p>
-        <h2>Testing - Asking better questions</h2>
+        <br>
+        <h4>Testing - Asking better questions</h4>
+        <br>
         <p>
           An additional finding from testing the prototype was how to write
           better usability testing questions. For instance, during testing
@@ -544,7 +529,9 @@
           I learned to write better questions by reading them out loud, and by
           running the questions by friends and family to check for clarity.
         </p>
-        <h2>Communicate Thoroughly and Frequently</h2>
+        <br>
+        <h4>Communicate Thoroughly and Frequently</h4>
+        <br>
         <p>
           I think it is important to communicate very frequently with other team
           members, especially developers. When communicating, I think it is
@@ -554,53 +541,15 @@
       </div>
     </main>
   </body>
-  <footer id="contact">
-    <div>
-      <h2>Get In Touch</h2>
-
-      <div>
-        <a href="mailto:itsamybarnhill@gmail.com" class="button contact"
-          >Email me</a
-        >
-      </div>
-
-      <div>
-        <a
-          href="https://www.linkedin.com/in/amy-barnhill-90a4a121a/"
-          target="_blank"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            fill="#000000"
-            height="32px"
-            width="32px"
-            version="1.1"
-            id="Layer_1"
-            viewBox="-143 145 512 512"
-            xml:space="preserve"
-          >
-            <path
-              d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9  V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7  C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6  c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z  "
-            />
-          </svg>
-        </a>
-        <a href="https://www.buymeacoffee.com/itsamybarnx" target="_blank">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32px"
-            height="32px"
-            viewBox="0 0 1024 1024"
-          >
-            <path
-              fill="#000000"
-              d="M768 192a192 192 0 1 1-8 383.808A256.128 256.128 0 0 1 512 768H320A256 256 0 0 1 64 512V160a32 32 0 0 1 32-32h640a32 32 0 0 1 32 32v32zm0 64v256a128 128 0 1 0 0-256zM96 832h640a32 32 0 1 1 0 64H96a32 32 0 1 1 0-64zm32-640v320a192 192 0 0 0 192 192h192a192 192 0 0 0 192-192V192H128z"
-            />
-          </svg>
-        </a>
-      </div>
-
-      <p>Copyright 2023 Amy Barnhill</p>
-    </div>
+  <footer>
+    <h3>Get In Touch</h3>
+    <nav>
+      <ul class="footer__links">
+        <li><a href="https://www.linkedin.com/in/amy-barnhill-90a4a121a/" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:itsamybarnhill@gmail.com" class="button contact">Email Me</a></li>
+        <li><a href="https://www.buymeacoffee.com/itsamybarnx" target="_blank">Buy Me A Coffee</a></li>            
+      </ul>
+     </nav>
+     <p>Copyright 2023 Amy Barnhill</p>
   </footer>
 </html>
